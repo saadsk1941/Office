@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <h2 className="logo"><img src="/LGRJ.png" width="25%" /></h2>
+      <h2 className="logo">Raj Computers</h2>
 
       <button
         className={`nav-toggle ${open ? "open" : ""}`}
