@@ -1,13 +1,14 @@
 import "./css/Navbar.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import logo from "../assets/LGRJ.png";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
     <nav className="navbar">
-      <h2 className="logo">Raj Computers</h2>
+      <h2 className="logo"><img src={logo} width="25%" /></h2>
 
       <button
         className={`nav-toggle ${open ? "open" : ""}`}
