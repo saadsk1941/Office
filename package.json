@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://saadsk1941.github.io/rajcomputers",
+  "homepage": "https://saadsk1941.github.io/Office",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
